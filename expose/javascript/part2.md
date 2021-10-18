@@ -21,14 +21,14 @@
 
 10. Line 12 will print 3 because the const variable length returns the length of array prices which is 3.
 
-11. It will return an array containing all three finalPrice of the original price with the original order because the for loop pushes one finalPrice each iteration until all original prices are converted to final price. Even though the variable discounted is const type, we could manipulate it using the push function because we are not reassigning other value to it.
+11. It will return an array containing all three finalPrice of the original price with the original order because the for loop pushes one finalPrice each iteration until all original prices are converted to final price. Even though the variable discounted is const type, we could manipulate it using the push function because we are not reassigning other value to it.\
 
 12.  
     * A student.name
     * B student['Grad Year']
     * C student.greeting()
     * D student['Favorite Teacher'].name
-    * E student.courseLoad[0]
+    * E student.courseLoad[0]\
 
 13.  
     * A 32, because integer map to their string representation.
@@ -38,7 +38,7 @@
     * E 4, because true becomes 1  
     * F 0, because false becomes 0 and null becomes 0  
     * G 3undefined, because undefined becomes 'undefined'
-    * H NaN, because undefined becomes NaN
+    * H NaN, because undefined becomes NaN\
 
 14.  
     * A true, because '2' maps to 2
@@ -46,7 +46,7 @@
     * C true, because '2' becomes 2
     * D false, because the strict comparison does not consider type conversion
     * E false, true becomes 1 and 1 != 2
-    * F true, because Boolean(2) is true
+    * F true, because Boolean(2) is true\
 
 15. == compares two variables with conversion but === is a strict equality operation without type conversion. In other words, == compares value and === compares both value and type.
 
